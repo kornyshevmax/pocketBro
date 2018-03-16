@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5239C229205BCD24004AFDBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239C228205BCD24004AFDBD /* AppDelegate.swift */; };
+		5239C22B205BCD24004AFDBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239C22A205BCD24004AFDBD /* ViewController.swift */; };
+		5239C22E205BCD24004AFDBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5239C22C205BCD24004AFDBD /* Main.storyboard */; };
+		5239C230205BCD24004AFDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5239C22F205BCD24004AFDBD /* Assets.xcassets */; };
+		5239C233205BCD24004AFDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5239C231205BCD24004AFDBD /* LaunchScreen.storyboard */; };
+		5239C23E205BCD24004AFDBD /* pocketBroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239C23D205BCD24004AFDBD /* pocketBroTests.swift */; };
+		5239C249205BCD24004AFDBD /* pocketBroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239C248205BCD24004AFDBD /* pocketBroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5239C23A205BCD24004AFDBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5239C21D205BCD24004AFDBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5239C224205BCD24004AFDBD;
+			remoteInfo = pocketBro;
+		};
+		5239C245205BCD24004AFDBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5239C21D205BCD24004AFDBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5239C224205BCD24004AFDBD;
+			remoteInfo = pocketBro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5239C225205BCD24004AFDBD /* pocketBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5239C228205BCD24004AFDBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5239C22A205BCD24004AFDBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5239C22D205BCD24004AFDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5239C22F205BCD24004AFDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5239C232205BCD24004AFDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5239C234205BCD24004AFDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5239C239205BCD24004AFDBD /* pocketBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5239C23D205BCD24004AFDBD /* pocketBroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketBroTests.swift; sourceTree = "<group>"; };
+		5239C23F205BCD24004AFDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5239C244205BCD24004AFDBD /* pocketBroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketBroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5239C248205BCD24004AFDBD /* pocketBroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketBroUITests.swift; sourceTree = "<group>"; };
+		5239C24A205BCD24004AFDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5239C222205BCD24004AFDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239C236205BCD24004AFDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239C241205BCD24004AFDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5239C21C205BCD24004AFDBD = {
+			isa = PBXGroup;
+			children = (
+				5239C227205BCD24004AFDBD /* pocketBro */,
+				5239C23C205BCD24004AFDBD /* pocketBroTests */,
+				5239C247205BCD24004AFDBD /* pocketBroUITests */,
+				5239C226205BCD24004AFDBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5239C226205BCD24004AFDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5239C225205BCD24004AFDBD /* pocketBro.app */,
+				5239C239205BCD24004AFDBD /* pocketBroTests.xctest */,
+				5239C244205BCD24004AFDBD /* pocketBroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5239C227205BCD24004AFDBD /* pocketBro */ = {
+			isa = PBXGroup;
+			children = (
+				5239C228205BCD24004AFDBD /* AppDelegate.swift */,
+				5239C22A205BCD24004AFDBD /* ViewController.swift */,
+				5239C22C205BCD24004AFDBD /* Main.storyboard */,
+				5239C22F205BCD24004AFDBD /* Assets.xcassets */,
+				5239C231205BCD24004AFDBD /* LaunchScreen.storyboard */,
+				5239C234205BCD24004AFDBD /* Info.plist */,
+			);
+			path = pocketBro;
+			sourceTree = "<group>";
+		};
+		5239C23C205BCD24004AFDBD /* pocketBroTests */ = {
+			isa = PBXGroup;
+			children = (
+				5239C23D205BCD24004AFDBD /* pocketBroTests.swift */,
+				5239C23F205BCD24004AFDBD /* Info.plist */,
+			);
+			path = pocketBroTests;
+			sourceTree = "<group>";
+		};
+		5239C247205BCD24004AFDBD /* pocketBroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5239C248205BCD24004AFDBD /* pocketBroUITests.swift */,
+				5239C24A205BCD24004AFDBD /* Info.plist */,
+			);
+			path = pocketBroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5239C224205BCD24004AFDBD /* pocketBro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5239C24D205BCD25004AFDBD /* Build configuration list for PBXNativeTarget "pocketBro" */;
+			buildPhases = (
+				5239C221205BCD24004AFDBD /* Sources */,
+				5239C222205BCD24004AFDBD /* Frameworks */,
+				5239C223205BCD24004AFDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pocketBro;
+			productName = pocketBro;
+			productReference = 5239C225205BCD24004AFDBD /* pocketBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5239C238205BCD24004AFDBD /* pocketBroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5239C250205BCD25004AFDBD /* Build configuration list for PBXNativeTarget "pocketBroTests" */;
+			buildPhases = (
+				5239C235205BCD24004AFDBD /* Sources */,
+				5239C236205BCD24004AFDBD /* Frameworks */,
+				5239C237205BCD24004AFDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5239C23B205BCD24004AFDBD /* PBXTargetDependency */,
+			);
+			name = pocketBroTests;
+			productName = pocketBroTests;
+			productReference = 5239C239205BCD24004AFDBD /* pocketBroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5239C243205BCD24004AFDBD /* pocketBroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5239C253205BCD25004AFDBD /* Build configuration list for PBXNativeTarget "pocketBroUITests" */;
+			buildPhases = (
+				5239C240205BCD24004AFDBD /* Sources */,
+				5239C241205BCD24004AFDBD /* Frameworks */,
+				5239C242205BCD24004AFDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5239C246205BCD24004AFDBD /* PBXTargetDependency */,
+			);
+			name = pocketBroUITests;
+			productName = pocketBroUITests;
+			productReference = 5239C244205BCD24004AFDBD /* pocketBroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5239C21D205BCD24004AFDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Maksim;
+				TargetAttributes = {
+					5239C224205BCD24004AFDBD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					5239C238205BCD24004AFDBD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5239C224205BCD24004AFDBD;
+					};
+					5239C243205BCD24004AFDBD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5239C224205BCD24004AFDBD;
+					};
+				};
+			};
+			buildConfigurationList = 5239C220205BCD24004AFDBD /* Build configuration list for PBXProject "pocketBro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5239C21C205BCD24004AFDBD;
+			productRefGroup = 5239C226205BCD24004AFDBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5239C224205BCD24004AFDBD /* pocketBro */,
+				5239C238205BCD24004AFDBD /* pocketBroTests */,
+				5239C243205BCD24004AFDBD /* pocketBroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5239C223205BCD24004AFDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239C233205BCD24004AFDBD /* LaunchScreen.storyboard in Resources */,
+				5239C230205BCD24004AFDBD /* Assets.xcassets in Resources */,
+				5239C22E205BCD24004AFDBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239C237205BCD24004AFDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239C242205BCD24004AFDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5239C221205BCD24004AFDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239C22B205BCD24004AFDBD /* ViewController.swift in Sources */,
+				5239C229205BCD24004AFDBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239C235205BCD24004AFDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239C23E205BCD24004AFDBD /* pocketBroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239C240205BCD24004AFDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239C249205BCD24004AFDBD /* pocketBroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5239C23B205BCD24004AFDBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5239C224205BCD24004AFDBD /* pocketBro */;
+			targetProxy = 5239C23A205BCD24004AFDBD /* PBXContainerItemProxy */;
+		};
+		5239C246205BCD24004AFDBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5239C224205BCD24004AFDBD /* pocketBro */;
+			targetProxy = 5239C245205BCD24004AFDBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5239C22C205BCD24004AFDBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5239C22D205BCD24004AFDBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5239C231205BCD24004AFDBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5239C232205BCD24004AFDBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5239C24B205BCD24004AFDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5239C24C205BCD24004AFDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5239C24E205BCD25004AFDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V6NHV9QA6;
+				INFOPLIST_FILE = pocketBro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pocketBro-inc..pocketBro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5239C24F205BCD25004AFDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V6NHV9QA6;
+				INFOPLIST_FILE = pocketBro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pocketBro-inc..pocketBro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5239C251205BCD25004AFDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V6NHV9QA6;
+				INFOPLIST_FILE = pocketBroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pocketBro-inc..pocketBroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketBro.app/pocketBro";
+			};
+			name = Debug;
+		};
+		5239C252205BCD25004AFDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V6NHV9QA6;
+				INFOPLIST_FILE = pocketBroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pocketBro-inc..pocketBroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketBro.app/pocketBro";
+			};
+			name = Release;
+		};
+		5239C254205BCD25004AFDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V6NHV9QA6;
+				INFOPLIST_FILE = pocketBroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pocketBro-inc..pocketBroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pocketBro;
+			};
+			name = Debug;
+		};
+		5239C255205BCD25004AFDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V6NHV9QA6;
+				INFOPLIST_FILE = pocketBroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pocketBro-inc..pocketBroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pocketBro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5239C220205BCD24004AFDBD /* Build configuration list for PBXProject "pocketBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5239C24B205BCD24004AFDBD /* Debug */,
+				5239C24C205BCD24004AFDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5239C24D205BCD25004AFDBD /* Build configuration list for PBXNativeTarget "pocketBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5239C24E205BCD25004AFDBD /* Debug */,
+				5239C24F205BCD25004AFDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5239C250205BCD25004AFDBD /* Build configuration list for PBXNativeTarget "pocketBroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5239C251205BCD25004AFDBD /* Debug */,
+				5239C252205BCD25004AFDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5239C253205BCD25004AFDBD /* Build configuration list for PBXNativeTarget "pocketBroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5239C254205BCD25004AFDBD /* Debug */,
+				5239C255205BCD25004AFDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5239C21D205BCD24004AFDBD /* Project object */;
+}
