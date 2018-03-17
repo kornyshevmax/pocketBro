@@ -19,5 +19,5 @@
 ### Над проектом работают:
 
 * [Корнышев Максим](https://github.com/kornyshevmax)
-* [Владимир Васильковский](https://github.com/vasilkovskii)
+* [Владимир Васильковский](https://github.com/vasilkovskii) 
 
