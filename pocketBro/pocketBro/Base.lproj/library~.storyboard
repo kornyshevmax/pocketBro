@@ -9,6 +9,52 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Personal Library-->
+        <scene sceneID="mj6-UF-Mie">
+            <objects>
+                <tableViewController id="Ty0-7O-QaL" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="G1n-6l-Iiz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="08c-HK-QhP">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="08c-HK-QhP" id="aDz-Nd-M2W">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ty0-7O-QaL" id="hQT-2K-2jG"/>
+                            <outlet property="delegate" destination="Ty0-7O-QaL" id="cPJ-9Q-INN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Personal Library" id="odm-6d-gNh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zpA-vO-17B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1103.2" y="328.78560719640183"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hid-29-PUy">
+            <objects>
+                <navigationController id="imV-w7-YMN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" systemItem="bookmarks" id="SU4-pQ-d1u"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tpd-C9-8ef">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ty0-7O-QaL" kind="relationship" relationship="rootViewController" id="lhx-xP-fR7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZw-KR-Inu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="343"/>
+        </scene>
         <!--Schedule-->
         <scene sceneID="wrJ-aM-H5h">
             <objects>
@@ -83,7 +129,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="7ws-P5-y9A" kind="relationship" relationship="viewControllers" id="d1R-sD-8aF"/>
+                        <segue destination="imV-w7-YMN" kind="relationship" relationship="viewControllers" id="d1R-sD-8aF"/>
                         <segue destination="2wH-JO-Z2t" kind="relationship" relationship="viewControllers" id="nGc-3g-8Ps"/>
                         <segue destination="fyE-4c-81Q" kind="relationship" relationship="viewControllers" id="2RJ-YQ-Tui"/>
                     </connections>
@@ -91,16 +137,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nmg-gH-uUd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-567" y="1038"/>
-        </scene>
-        <!--library-->
-        <scene sceneID="l0Z-mU-EZI">
-            <objects>
-                <viewControllerPlaceholder storyboardName="library" id="7ws-P5-y9A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="tmR-vg-dbb"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fJK-2I-v9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="337" y="343"/>
         </scene>
     </scenes>
 </document>
