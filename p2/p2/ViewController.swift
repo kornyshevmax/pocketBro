@@ -17,6 +17,7 @@ class ViewController: UIViewController , UIScrollViewDelegate{
         self.present(secondViewController, animated: true, completion: nil)
         
     }
+  //не нужный код,использую код максима за основу
     
     override func viewDidLoad() {
         
