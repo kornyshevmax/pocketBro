@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5142E7FD20777AD6003951A8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5142E7FC20777AD6003951A8 /* TableViewController.swift */; };
 		525DA6AD206BD71600DFA86C /* library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525DA6AB206BD71600DFA86C /* library.storyboard */; };
 		52F5CB60205C2B6900CF3AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5CB5F205C2B6900CF3AF9 /* AppDelegate.swift */; };
 		52F5CB62205C2B6900CF3AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5CB61205C2B6900CF3AF9 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5142E7FC20777AD6003951A8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		525DA6AC206BD71600DFA86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pocketBro/Base.lproj/library.storyboard; sourceTree = "<group>"; };
 		52F5CB5C205C2B6900CF3AF9 /* pocketBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F5CB5F205C2B6900CF3AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				52F5CB5F205C2B6900CF3AF9 /* AppDelegate.swift */,
 				52F5CB61205C2B6900CF3AF9 /* ViewController.swift */,
 				525DA6AB206BD71600DFA86C /* library.storyboard */,
+				5142E7FC20777AD6003951A8 /* TableViewController.swift */,
 				52F5CB63205C2B6900CF3AF9 /* Main.storyboard */,
 				52F5CB66205C2B6900CF3AF9 /* Assets.xcassets */,
 				52F5CB68205C2B6900CF3AF9 /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F5CB62205C2B6900CF3AF9 /* ViewController.swift in Sources */,
+				5142E7FD20777AD6003951A8 /* TableViewController.swift in Sources */,
 				52F5CB60205C2B6900CF3AF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
