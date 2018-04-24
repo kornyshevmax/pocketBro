@@ -15,6 +15,8 @@
 		52F5CB67205C2B6900CF3AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F5CB66205C2B6900CF3AF9 /* Assets.xcassets */; };
 		52F5CB6A205C2B6900CF3AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F5CB68205C2B6900CF3AF9 /* LaunchScreen.storyboard */; };
 		52F5CB75205C2B6900CF3AF9 /* pocketBroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5CB74205C2B6900CF3AF9 /* pocketBroTests.swift */; };
+		B16B9AEA8EDB081DB153A10C /* Pods_pocketBro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F20254B67EE83ED15B53E38 /* Pods_pocketBro.framework */; };
+		F21BAA8D69F4F73A33C40BC2 /* Pods_pocketBroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4655C01CCF4CF4AA6563019 /* Pods_pocketBroTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F20254B67EE83ED15B53E38 /* Pods_pocketBro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pocketBro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142E7FC20777AD6003951A8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		525DA6AC206BD71600DFA86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pocketBro/Base.lproj/library.storyboard; sourceTree = "<group>"; };
 		52F5CB5C205C2B6900CF3AF9 /* pocketBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +43,11 @@
 		52F5CB70205C2B6900CF3AF9 /* pocketBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F5CB74205C2B6900CF3AF9 /* pocketBroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketBroTests.swift; sourceTree = "<group>"; };
 		52F5CB76205C2B6A00CF3AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E97038A598490B60B90D8B0 /* Pods-pocketBroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketBroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pocketBroTests/Pods-pocketBroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86564FAC018A46166B7B928B /* Pods-pocketBro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketBro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pocketBro/Pods-pocketBro.debug.xcconfig"; sourceTree = "<group>"; };
+		9513DEEA987111CCD9E48900 /* Pods-pocketBroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketBroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pocketBroTests/Pods-pocketBroTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4655C01CCF4CF4AA6563019 /* Pods_pocketBroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pocketBroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC1BD46A98B7780A0198B94 /* Pods-pocketBro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketBro.release.xcconfig"; path = "Pods/Target Support Files/Pods-pocketBro/Pods-pocketBro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16B9AEA8EDB081DB153A10C /* Pods_pocketBro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21BAA8D69F4F73A33C40BC2 /* Pods_pocketBroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				52F5CB5E205C2B6900CF3AF9 /* pocketBro */,
 				52F5CB73205C2B6900CF3AF9 /* pocketBroTests */,
 				52F5CB5D205C2B6900CF3AF9 /* Products */,
+				D8F691C7BC9309E1116A5F1A /* Pods */,
+				C915EE771FD361D19AA3620E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +114,26 @@
 			path = pocketBroTests;
 			sourceTree = "<group>";
 		};
+		C915EE771FD361D19AA3620E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F20254B67EE83ED15B53E38 /* Pods_pocketBro.framework */,
+				B4655C01CCF4CF4AA6563019 /* Pods_pocketBroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F691C7BC9309E1116A5F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86564FAC018A46166B7B928B /* Pods-pocketBro.debug.xcconfig */,
+				BEC1BD46A98B7780A0198B94 /* Pods-pocketBro.release.xcconfig */,
+				5E97038A598490B60B90D8B0 /* Pods-pocketBroTests.debug.xcconfig */,
+				9513DEEA987111CCD9E48900 /* Pods-pocketBroTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F5CB79205C2B6A00CF3AF9 /* Build configuration list for PBXNativeTarget "pocketBro" */;
 			buildPhases = (
+				A30677C78EBA225754A3F0DE /* [CP] Check Pods Manifest.lock */,
 				52F5CB58205C2B6900CF3AF9 /* Sources */,
 				52F5CB59205C2B6900CF3AF9 /* Frameworks */,
 				52F5CB5A205C2B6900CF3AF9 /* Resources */,
+				DFDD671ECC9BA48CCB668146 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F5CB7C205C2B6A00CF3AF9 /* Build configuration list for PBXNativeTarget "pocketBroTests" */;
 			buildPhases = (
+				94B4D9BECC1AA4141059D153 /* [CP] Check Pods Manifest.lock */,
 				52F5CB6C205C2B6900CF3AF9 /* Sources */,
 				52F5CB6D205C2B6900CF3AF9 /* Frameworks */,
 				52F5CB6E205C2B6900CF3AF9 /* Resources */,
@@ -199,6 +234,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94B4D9BECC1AA4141059D153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pocketBroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30677C78EBA225754A3F0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pocketBro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFDD671ECC9BA48CCB668146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pocketBro/Pods-pocketBro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketBro/Pods-pocketBro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52F5CB58205C2B6900CF3AF9 /* Sources */ = {
@@ -366,6 +462,7 @@
 		};
 		52F5CB7A205C2B6A00CF3AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86564FAC018A46166B7B928B /* Pods-pocketBro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +477,7 @@
 		};
 		52F5CB7B205C2B6A00CF3AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC1BD46A98B7780A0198B94 /* Pods-pocketBro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +492,7 @@
 		};
 		52F5CB7D205C2B6A00CF3AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E97038A598490B60B90D8B0 /* Pods-pocketBroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +509,7 @@
 		};
 		52F5CB7E205C2B6A00CF3AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9513DEEA987111CCD9E48900 /* Pods-pocketBroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
